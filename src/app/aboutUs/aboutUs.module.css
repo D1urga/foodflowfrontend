@@ -1,0 +1,251 @@
+@media screen and (min-width: 900px) {
+  .outer_div {
+    padding-top: 7rem;
+    display: flex;
+    align-items: center;
+  }
+  .div1 {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .icon1 {
+    font-size: 270px;
+    color: rgb(163, 163, 163);
+  }
+  .btn {
+    user-select: none;
+    cursor: pointer;
+    border: none;
+    padding: 10px 60px;
+    border-radius: 20px;
+    color: white;
+    margin: 10px 0;
+    background-color: rgb(60, 60, 152);
+  }
+  .btn2 {
+    user-select: none;
+    cursor: pointer;
+    border: none;
+    padding: 10px 90px;
+    border-radius: 20px;
+    color: white;
+    margin: 10px 0;
+    background-color: rgb(89, 154, 172);
+  }
+  .p1 {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px 0;
+    color: rgb(75, 75, 149);
+  }
+  .p2 {
+    font-size: 13px;
+    font-weight: 520;
+  }
+  .inputs,
+  .inputs:focus {
+    outline: none !important;
+    padding: 10px;
+    resize: none;
+    border: none;
+    margin: 10px 0;
+    width: 20vw;
+    background-color: #e8ebf0;
+    border-radius: 5px;
+    height: 60px;
+  }
+  .close {
+    margin: 20px 0;
+    cursor: pointer;
+  }
+  .join_comm {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 4vw;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 400px;
+    background-color: #ffffff;
+    box-shadow: rgb(194, 194, 194) 0px 0px 7px 0px;
+  }
+}
+@media screen and (max-width: 900px) and (min-width: 520px) {
+  .outer_div {
+    padding-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .div1 {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .div2 {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+  }
+  .icon1 {
+    font-size: 200px;
+    color: rgb(163, 163, 163);
+  }
+  .btn {
+    user-select: none;
+    cursor: pointer;
+    border: none;
+    padding: 10px 60px;
+    border-radius: 20px;
+    color: white;
+    margin: 10px 0;
+    background-color: rgb(60, 60, 152);
+    margin-right: 35vw;
+  }
+  .btn2 {
+    user-select: none;
+    cursor: pointer;
+    border: none;
+    padding: 10px 90px;
+    border-radius: 20px;
+    color: white;
+    margin: 10px 0;
+    background-color: rgb(89, 154, 172);
+  }
+  .p1 {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px 0;
+    color: rgb(75, 75, 149);
+  }
+  .p2 {
+    font-size: 13px;
+    font-weight: 520;
+  }
+  .inputs,
+  .inputs:focus {
+    outline: none !important;
+    padding: 10px;
+    resize: none;
+    border: none;
+    margin: 10px 0;
+    width: 70vw;
+    background-color: #e8ebf0;
+    border-radius: 5px;
+    height: 60px;
+  }
+  .close {
+    margin: 20px 0;
+    cursor: pointer;
+  }
+  .join_comm {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 4vw;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 400px;
+    background-color: #ffffff;
+    box-shadow: rgb(194, 194, 194) 0px 0px 7px 0px;
+  }
+}
+@media screen and (max-width: 520px) {
+  .outer_div {
+    padding-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .div1 {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .div2 {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+  }
+  .icon1 {
+    font-size: 200px;
+    color: rgb(163, 163, 163);
+  }
+  .btn {
+    user-select: none;
+    cursor: pointer;
+    border: none;
+    padding: 10px 60px;
+    border-radius: 20px;
+    color: white;
+    margin: 10px 0;
+    background-color: rgb(60, 60, 152);
+    margin-right: 5vw;
+  }
+  .btn2 {
+    user-select: none;
+    cursor: pointer;
+    border: none;
+    padding: 10px 90px;
+    border-radius: 20px;
+    color: white;
+    margin: 10px 0;
+    background-color: rgb(89, 154, 172);
+  }
+  .p1 {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px 0;
+    color: rgb(75, 75, 149);
+  }
+  .p2 {
+    font-size: 13px;
+    font-weight: 520;
+  }
+  .inputs,
+  .inputs:focus {
+    outline: none !important;
+    padding: 10px;
+    resize: none;
+    border: none;
+    margin: 10px 0;
+    width: 70vw;
+    background-color: #e8ebf0;
+    border-radius: 5px;
+    height: 60px;
+  }
+  .close {
+    margin: 20px 0;
+    cursor: pointer;
+  }
+  .join_comm {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 4vw;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 330px;
+    background-color: #ffffff;
+    box-shadow: rgb(194, 194, 194) 0px 0px 7px 0px;
+  }
+}

@@ -1,0 +1,218 @@
+@media screen and (min-width: 900px) {
+  .outer_div {
+    background-color: #ccd5eb;
+    /* border-top: 1px solid gray; */
+    margin-top: 60px;
+    padding: 30px 0;
+  }
+  .inner_div1 {
+    display: flex;
+  }
+  .div1,
+  .div2,
+  .div3,
+  .div4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 25%;
+  }
+  .topic {
+    font-size: 18px;
+    font-weight: 520;
+    margin: 20px;
+  }
+  .data {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 530;
+    padding: 0 3vw;
+  }
+  .icons_outer_div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 4vw;
+  }
+  .icons_outer_div p {
+    margin: 0 30px;
+    font-size: 15px;
+    font-weight: 540;
+  }
+  .icon {
+    font-size: 22px;
+    margin: 0 10px;
+    color: rgb(48, 48, 74);
+  }
+  .intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-weight: 600;
+  }
+  .title_div {
+    display: flex;
+    align-items: center;
+    padding: 30px 5vw;
+  }
+  .p1 {
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(71, 71, 177);
+    border-bottom: 2px solid rgb(78, 84, 209);
+  }
+  .p2 {
+    font-size: 16px;
+    font-weight: 540;
+    padding: 0 30px;
+    color: rgb(71, 71, 177);
+  }
+}
+
+@media screen and (max-width: 900px) and (min-width: 520px) {
+  .outer_div {
+    background-color: #ccd5eb;
+    margin-top: 60px;
+    padding: 30px 0;
+  }
+  .inner_div1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .div1,
+  .div2,
+  .div3,
+  .div4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+  }
+  .topic {
+    font-size: 18px;
+    font-weight: 520;
+    margin: 20px;
+  }
+  .data {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 530;
+    padding: 0 3vw;
+  }
+  .icons_outer_div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 4vw;
+  }
+  .icons_outer_div p {
+    margin: 0 30px;
+    font-size: 15px;
+    font-weight: 540;
+  }
+  .icon {
+    font-size: 22px;
+    margin: 0 10px;
+    color: rgb(48, 48, 74);
+  }
+  .intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-weight: 600;
+  }
+  .title_div {
+    display: flex;
+    align-items: center;
+    padding: 30px 7vw;
+  }
+  .p1 {
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(71, 71, 177);
+    border-bottom: 2px solid rgb(78, 84, 209);
+  }
+  .p2 {
+    font-size: 16px;
+    font-weight: 540;
+    padding: 0 30px;
+    color: rgb(71, 71, 177);
+  }
+}
+@media screen and (max-width: 520px) {
+  .outer_div {
+    background-color: #ccd5eb;
+    margin-top: 60px;
+    padding: 30px 0;
+  }
+  .inner_div1 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .div1,
+  .div2,
+  .div3,
+  .div4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+  }
+  .topic {
+    font-size: 18px;
+    font-weight: 520;
+    margin: 20px;
+  }
+  .data {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 530;
+    padding: 0 3vw;
+  }
+  .icons_outer_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 0 4vw; */
+  }
+  .icons_outer_div p {
+    margin: 0 5px;
+    font-size: 14px;
+    font-weight: 540;
+  }
+  .icon {
+    font-size: 20px;
+    margin: 0 4px;
+    color: rgb(48, 48, 74);
+  }
+  .intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-weight: 600;
+  }
+  .title_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+  }
+  .p1 {
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(71, 71, 177);
+    border-bottom: 2px solid rgb(78, 84, 209);
+  }
+  .p2 {
+    font-size: 14px;
+    font-weight: 540;
+    padding: 0 20px;
+    color: rgb(71, 71, 177);
+  }
+}

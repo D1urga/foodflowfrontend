@@ -1,0 +1,319 @@
+@media screen and (min-width: 900px) {
+  .outer_div {
+    padding-top: 5.3rem;
+    display: flex;
+  }
+  .div1 {
+    width: 40%;
+    margin: 0px;
+    background-color: #ffffff;
+    height: 85vh;
+    border-radius: 5px;
+    box-shadow: rgb(146, 146, 146) 0px 0px 5px 0px;
+    padding: 10px;
+    margin-left: 40px;
+  }
+  .div2 {
+    width: 50%;
+    margin: 0px;
+    background-color: #ffffff;
+    height: 85vh;
+    /* overflow: scroll; */
+    border-radius: 5px;
+    box-shadow: rgb(146, 146, 146) 0px 0px 5px 0px;
+    padding: 10px;
+    margin-left: 40px;
+    border: 5px solid white;
+  }
+  .userdata {
+    width: 100%;
+    margin-left: 40px;
+    border-radius: 5px;
+  }
+  .p1 {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .p2 {
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .userdata_outer_div {
+    width: 100%;
+    background-color: #bdd5c2;
+    display: flex;
+    margin: 2px 0;
+    padding: 5px 40px;
+    border-radius: 5px;
+    align-items: center;
+  }
+  .icon {
+    font-size: 40px;
+    color: grey;
+  }
+  .title {
+    margin: 10px 6px;
+    font-weight: 600;
+    color: rgb(74, 74, 137);
+  }
+  .chat_div {
+    overflow: scroll;
+    height: 70vh;
+  }
+
+  .chatting {
+    background-color: rgb(222, 249, 244);
+
+    margin: 3px 0;
+    margin-left: 20vw;
+    padding: 20px 30px;
+    border-radius: 5px;
+  }
+  .chatting1 {
+    padding: 20px 30px;
+    background-color: rgb(242, 238, 238);
+    margin: 3px 0;
+    margin-right: 20vw;
+    border-radius: 5px;
+  }
+  .inputs,
+  .inputs:focus {
+    border: none;
+    background-color: rgb(110, 110, 110);
+    padding: 10px 10px;
+    height: 45px;
+    color: white;
+    width: 28vw;
+    border-radius: 10px;
+    margin: 10px 0;
+  }
+  .send {
+    font-size: 33px;
+    margin: 0 10px;
+    color: rgb(88, 88, 88);
+    user-select: none;
+    cursor: pointer;
+  }
+  .submit_btn {
+    background-color: #80aaaf;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin: 0 5px;
+  }
+}
+@media screen and (max-width: 900px) and (min-width: 520px) {
+  .outer_div {
+    padding-top: 5.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .div1 {
+    width: 93vw;
+    margin: 0px;
+    background-color: #ffffff;
+    height: 85vh;
+    border-radius: 5px;
+    box-shadow: rgb(146, 146, 146) 0px 0px 5px 0px;
+    padding: 10px;
+
+    margin: 20px 0;
+  }
+  .div2 {
+    width: 93vw;
+    margin: 0px;
+    background-color: #ffffff;
+    height: 85vh;
+    /* overflow: scroll; */
+    border-radius: 5px;
+    box-shadow: rgb(146, 146, 146) 0px 0px 5px 0px;
+    padding: 10px;
+
+    border: 5px solid white;
+  }
+  .userdata {
+    width: 100%;
+    margin-left: 40px;
+    border-radius: 5px;
+  }
+  .p1 {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .p2 {
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .userdata_outer_div {
+    width: 100%;
+    background-color: #bdd5c2;
+    display: flex;
+    margin: 2px 0;
+    padding: 5px 40px;
+    border-radius: 5px;
+    align-items: center;
+  }
+  .icon {
+    font-size: 40px;
+    color: grey;
+  }
+  .title {
+    margin: 10px 6px;
+    font-weight: 600;
+    color: rgb(74, 74, 137);
+  }
+  .chat_div {
+    overflow: scroll;
+    height: 70vh;
+  }
+
+  .chatting {
+    background-color: rgb(222, 249, 244);
+
+    margin: 3px 0;
+    margin-left: 20vw;
+    padding: 20px 30px;
+    border-radius: 5px;
+  }
+  .chatting1 {
+    padding: 20px 30px;
+    background-color: rgb(242, 238, 238);
+    margin: 3px 0;
+    margin-right: 20vw;
+    border-radius: 5px;
+  }
+  .inputs,
+  .inputs:focus {
+    border: none;
+    background-color: rgb(110, 110, 110);
+    padding: 10px 10px;
+    height: 45px;
+    color: white;
+    width: 50vw;
+    border-radius: 10px;
+    margin: 10px 0;
+  }
+  .send {
+    font-size: 33px;
+    margin: 0 10px;
+    color: rgb(88, 88, 88);
+    user-select: none;
+    cursor: pointer;
+  }
+  .submit_btn {
+    background-color: #80aaaf;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin: 0 5px;
+  }
+}
+@media screen and (max-width: 520px) {
+  .outer_div {
+    padding-top: 5.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .div1 {
+    width: 93vw;
+    margin: 0px;
+    background-color: #ffffff;
+    height: 85vh;
+    border-radius: 5px;
+    box-shadow: rgb(146, 146, 146) 0px 0px 5px 0px;
+    padding: 10px;
+
+    margin: 20px 0;
+  }
+  .div2 {
+    width: 93vw;
+    margin: 0px;
+    background-color: #ffffff;
+    height: 85vh;
+    /* overflow: scroll; */
+    border-radius: 5px;
+    box-shadow: rgb(146, 146, 146) 0px 0px 5px 0px;
+    padding: 10px;
+
+    border: 5px solid white;
+  }
+  .userdata {
+    width: 100%;
+    margin-left: 40px;
+    border-radius: 5px;
+  }
+  .p1 {
+    font-size: 16px;
+    font-weight: 500;
+    overflow: hidden;
+  }
+  .p2 {
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .userdata_outer_div {
+    width: 100%;
+    background-color: #bdd5c2;
+    display: flex;
+    margin: 2px 0;
+    padding: 5px 40px;
+    border-radius: 5px;
+    align-items: center;
+  }
+  .icon {
+    font-size: 40px;
+    color: grey;
+  }
+  .title {
+    margin: 10px 6px;
+    font-weight: 600;
+    color: rgb(74, 74, 137);
+  }
+  .chat_div {
+    overflow: scroll;
+    height: 70vh;
+  }
+
+  .chatting {
+    background-color: rgb(222, 249, 244);
+
+    margin: 3px 0;
+    margin-left: 20vw;
+    padding: 20px 30px;
+    border-radius: 5px;
+  }
+  .chatting1 {
+    padding: 20px 30px;
+    background-color: rgb(242, 238, 238);
+    margin: 3px 0;
+    margin-right: 20vw;
+    border-radius: 5px;
+  }
+  .inputs,
+  .inputs:focus {
+    border: none;
+    background-color: rgb(110, 110, 110);
+    padding: 10px 10px;
+    height: 45px;
+    color: white;
+    width: 50vw;
+    border-radius: 10px;
+    margin: 10px 0;
+  }
+  .send {
+    font-size: 33px;
+    margin: 0 10px;
+    color: rgb(88, 88, 88);
+    user-select: none;
+    cursor: pointer;
+  }
+  .submit_btn {
+    background-color: #80aaaf;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin: 0 5px;
+  }
+}

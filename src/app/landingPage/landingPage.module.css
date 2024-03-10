@@ -1,0 +1,134 @@
+@media screen and (min-width: 900px) {
+  .outer_div {
+    display: flex;
+    align-items: center;
+    padding-top: 7rem;
+  }
+  .title {
+    font-size: 60px;
+    color: rgb(77, 95, 173);
+  }
+  .tagline {
+    font-size: 25px;
+    font-weight: 550;
+    color: rgb(77, 95, 173);
+  }
+  .div1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20vw;
+  }
+  .img1 {
+    height: 500px;
+    width: 500px;
+    border-radius: 250px;
+    object-fit: cover;
+  }
+  .join {
+    background-color: rgb(76, 152, 157);
+    padding: 12px 40px;
+    border-radius: 20px;
+    color: white;
+    font-size: 14px;
+  }
+  .conc {
+    padding-right: 30px;
+    line-height: 1.5;
+    word-spacing: 4px;
+    margin: 30px 0;
+  }
+}
+@media screen and (max-width: 900px) and (min-width: 520px) {
+  .outer_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 6rem;
+  }
+  .title {
+    font-size: 50px;
+    color: rgb(77, 97, 163);
+  }
+  .tagline {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(77, 97, 163);
+  }
+  .div1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    justify-content: center;
+    padding-bottom: 50px;
+  }
+  .img1 {
+    height: 500px;
+    width: 500px;
+    border-radius: 250px;
+    object-fit: cover;
+  }
+  .conc {
+    padding-right: 30px;
+    line-height: 1.5;
+    word-spacing: 4px;
+    margin: 30px 0;
+    padding: 0 8vw;
+  }
+  .join {
+    background-color: rgb(76, 152, 157);
+    padding: 12px 40px;
+    border-radius: 20px;
+    color: white;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 520px) {
+  .outer_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 6rem;
+  }
+  .title {
+    font-size: 30px;
+    color: rgb(77, 97, 163);
+  }
+  .tagline {
+    font-size: 17px;
+    font-weight: 600;
+    color: rgb(77, 97, 163);
+  }
+  .div1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    justify-content: center;
+    padding-bottom: 40px;
+  }
+  .img1 {
+    height: 320px;
+    width: 320px;
+    border-radius: 190px;
+    object-fit: cover;
+  }
+  .conc {
+    padding-right: 30px;
+    line-height: 1.5;
+    word-spacing: 4px;
+    margin: 30px 0;
+    padding: 0 8vw;
+  }
+  .join {
+    background-color: rgb(76, 152, 157);
+    padding: 12px 40px;
+    border-radius: 20px;
+    color: white;
+    font-size: 14px;
+  }
+}
